@@ -14,12 +14,12 @@ const translations = {
 
     /* --- FOOTER --- */
     "footer.desc":
-      "Destinacioni juaj i besuar online për kozmetikë premium. Velura Beauty — kujdes profesional për lëkurën tuaj, dorëzuar me dashuri.",
-    "footer.shop": "Dyqan",
+      "Dyqani juaj online për produkte kozmetike dhe kujdes të përditshëm për lëkurën.",
+    "footer.shop": "Dyqani",
     "footer.all_plants": "Të Gjitha Produktet",
     "footer.indoor": "Kremë Fytyre",
     "footer.succulents": "Kujdes Trupi",
-    "footer.flowering": "Serumet & Trajtimet",
+    "footer.flowering": "Serume & Trajtime",
     "footer.accessories": "Sete & Paketa",
     "footer.company": "Kompania",
     "footer.about": "Rreth Nesh",
@@ -28,21 +28,21 @@ const translations = {
     "footer.blog": "Blog",
     "footer.careers": "Karriera",
     "footer.help": "Ndihmë",
-    "footer.shipping": "Info Dërgimi",
+    "footer.shipping": "Informacion për Dërgesën",
     "footer.returns": "Kthime & Rimbursime",
-    "footer.care_guide": "Udhëzues Lëkure",
+    "footer.care_guide": "Udhëzues për Kujdesin e Lëkurës",
     "footer.faq": "Pyetje të Shpeshta",
     "footer.support": "Mbështetje",
     "footer.copy": "© 2026 Velura Beauty. Të gjitha të drejtat e rezervuara.",
     "footer.legal": "Politika e Privatësisë · Kushtet e Shërbimit",
 
-    /* --- BADGES & SHARED BUTTONS --- */
+    /* --- SHARED --- */
     "badge.bestseller": "Më e Shitura",
     "badge.new": "E Re",
     "badge.popular": "E Njohur",
     "badge.sale": "Ofertë",
     "btn.add_cart": "Shto në Shportë",
-    "btn.added": "✓ Shtuar!",
+    "btn.added": "✓ U shtua!",
     "btn.sending": "Duke dërguar…",
     "breadcrumb.home": "Kryefaqja",
 
@@ -52,170 +52,169 @@ const translations = {
     "home.hero.badge": "✨ Transport falas për porositë mbi 3,000 LEK",
     "home.hero.h1": "Lëkura <span>Juaj</span><br>Meriton Më të Mirën",
     "home.hero.desc":
-      "Zbulo koleksionin tonë premium të kremeve, serumeve dhe produkteve të kujdesit për lëkurën. Formula të testuara dermatologjikisht, me përbërës natyralë — dorëzuar deri te dera juaj.",
+      "Zbuloni koleksionin tonë të kremeve, serumeve dhe produkteve të kujdesit për lëkurën. Formula të testuara dermatologjikisht, me përbërës të zgjedhur me kujdes — të dorëzuara deri te dera juaj.",
     "home.hero.btn_shop": "Zbulo Produktet →",
     "home.hero.btn_story": "Historia Jonë",
-    "home.hero.stat1": "Produkte premium",
-    "home.hero.stat2": "Klienta të lumtur",
-    "home.hero.stat3": "Vlerësim mesatar",
+    "home.hero.stat1": "Produkte kozmetike",
+    "home.hero.stat2": "Klientë të parë",
+    "home.hero.stat3": "Kategori produktesh",
     "home.hero.caption": "Zgjedhur me kujdes për ju",
 
     "home.why.label": "Pse Velura Beauty",
-    "home.why.title": "Kujdes i Thjeshtë",
+    "home.why.title": "Kujdes i Thjeshtë dhe Efektiv",
     "home.why.desc":
-      "Gjithçka që ju nevojitet për lëkurën tuaj ideale, pa kompromis.",
+      "Produkte të përzgjedhura për një rutinë më të lehtë dhe më të rregullt të kujdesit për lëkurën.",
 
-    "home.feat1.title": "Dërgim i Shpejtë & i Sigurt",
+    "home.feat1.title": "Dërgesë e Shpejtë dhe e Sigurt",
     "home.feat1.desc":
-      "Produktet paketohen me kujdes dhe dorëzohen brenda 1–3 ditëve pune në të gjithë Shqipërinë. Çdo porosi mbërrin në gjendje perfekte.",
+      "Produktet paketohen me kujdes dhe dërgohen brenda 2–4 ditëve pune. Çdo porosi trajtohet me vëmendje.",
     "home.feat2.title": "Formula të Testuara Dermatologjikisht",
     "home.feat2.desc":
-      "Të gjitha kremët dhe serumet tona janë testuar dermatologjikisht. Cilësi e garantuar edhe për lëkurën e ndjeshme.",
-    "home.feat3.title": "Përbërës Natyralë & të Pastër",
+      "Kremërat dhe serumet tona janë të përzgjedhura për përdorim të përditshëm dhe për lloje të ndryshme lëkure.",
+    "home.feat3.title": "Përbërës të Zgjedhur",
     "home.feat3.desc":
-      "Formulat tona kombinojnë shkencën moderne me fuqinë e natyrës. Pa parabene, pa sulfate — vetëm çfarë vlen.",
+      "Formulat tona kombinojnë kujdesin modern me përbërës të butë dhe të përshtatshëm për lëkurën.",
     "home.feat4.title": "Garanci 30-Ditore",
     "home.feat4.desc":
-      "Nëse nuk jeni të kënaqur brenda 30 ditëve, do t'ju rimbursojmë plotësisht — pa pyetje.",
-    "home.feat5.title": "Cilësi Premium",
+      "Nëse nuk jeni të kënaqur me porosinë tuaj, mund të na kontaktoni për kthim ose rimbursim.",
+    "home.feat5.title": "Cilësi e Kujdesshme",
     "home.feat5.desc":
-      "Burojmë vetëm nga furnitorë të certifikuar me standarde ndërkombëtare. Cilësi e garantuar.",
-    "home.feat6.title": "Mbështetje 7 Ditë",
+      "Çdo produkt zgjidhet me kujdes, duke pasur parasysh cilësinë, përdorimin dhe nevojat e klientëve.",
+    "home.feat6.title": "Mbështetje për Klientët",
     "home.feat6.desc":
-      "Ekipi ynë i specialistëve të kozmetikës është i disponueshëm 7 ditë në javë për këshilla dhe ndihmë.",
+      "Ekipi ynë është i gatshëm t’ju ndihmojë me pyetje rreth produkteve, porosive dhe rutinës së kujdesit.",
 
     "home.products.label": "Më të Shitura",
-    "home.products.title": "Produktet Tona të Zgjedhura",
+    "home.products.title": "Produkte të Zgjedhura",
     "home.products.desc":
-      "Kremët dhe serumet tona më të dashura. Perfekte për çdo lloj lëkure.",
+      "Disa nga produktet tona më të preferuara për kujdesin e fytyrës dhe trupit.",
     "home.products.view_all": "Shiko Të Gjitha Produktet →",
 
     "home.p1.cat": "Krem Fytyre",
     "home.p1.name": "Krem Hidratues për Fytyrë",
     "home.p1.desc":
-      "Hidratim i thellë 24 orë me acid hialulonik dhe aloe vera. I shtatë për të gjitha llojet e lëkurës.",
+      "Krem hidratues për përdorim të përditshëm, me acid hialuronik dhe aloe vera. I përshtatshëm për shumicën e llojeve të lëkurës.",
     "home.p2.cat": "Serum",
-    "home.p2.name": "Serum Vitamina C",
+    "home.p2.name": "Serum me Vitaminë C",
     "home.p2.desc":
-      "Ndriçon dhe barazon tonin e lëkurës. Formula e përqendruar me 15% Vitamina C stabël.",
+      "Serum për ndriçimin e lëkurës dhe për një pamje më të freskët. I përshtatshëm për rutinën e mëngjesit.",
     "home.p3.cat": "Krem Nate",
     "home.p3.name": "Krem Nate Anti-Plakje",
     "home.p3.desc":
-      "Rigjenerimi i natës me retinol, peptide dhe vaj argan. Zgjohu me lëkurë më të butë çdo mëngjes.",
+      "Krem nate me teksturë të pasur, i krijuar për ta ushqyer lëkurën gjatë natës.",
     "home.p4.cat": "Kujdes Trupi",
-    "home.p4.name": "Locion Trupi Hidratues",
+    "home.p4.name": "Locion Hidratues për Trup",
     "home.p4.desc":
-      "Hidratim i gjatë dhe i lehtë me gjalpe shea dhe vaj kokosi.",
+      "Locion i lehtë për trupin, me gjalpë shea dhe vaj kokosi. E lë lëkurën të butë dhe të hidratuar.",
 
-    "home.stats.p1": "Produkte Premium",
-    "home.stats.p2": "Klienta të Kënaqur",
-    "home.stats.p3": "Kënaqësi e Klientëve",
+    "home.stats.p1": "Produkte",
+    "home.stats.p2": "Klientë",
+    "home.stats.p3": "Kategori",
     "home.stats.v4": "30 Ditë",
     "home.stats.p4": "Garanci Kthimi",
 
     "home.reviews.label": "Vlerësime të Klientëve",
-    "home.reviews.title": "Çfarë Thonë Klientat Tona",
+    "home.reviews.title": "Çfarë Thonë Klientët Tanë",
     "home.reviews.desc":
-      "Histori të vërteta nga gra shqiptare që kanë transformuar rutinën e tyre me Velura Beauty.",
-
+      "Disa komente nga klientë që kanë provuar produktet tona.",
     "home.t1.text":
-      '"Kremi Hidratues ndryshoi lëkurën time plotësisht! Pas vetëm dy javësh, lëkura ime është dukshëm më e butë dhe e ndriçuar. E rekomandoj me gjithë zemër!"',
-    "home.t1.location": "Blerëse e Verifikuar · Tiranë",
+      '"Kremi hidratues më pëlqeu shumë. Ka teksturë të lehtë dhe lëkura ndihet më e butë pas përdorimit."',
+    "home.t1.location": "Kliente · Tiranë",
     "home.t2.text":
-      '"Serum Vitamina C është absolutisht fantastik. Njollat e errëta u zhdukën brenda një muaji. Produkte cilësore dhe dërgim i shpejtë!"',
-    "home.t2.location": "Blerëse e Verifikuar · Durrës",
+      '"Serumi me Vitaminë C u bë pjesë e rutinës sime të mëngjesit. Më pëlqen sepse përthithet shpejt."',
+    "home.t2.location": "Kliente · Durrës",
     "home.t3.text":
-      '"Ekipi i mbështetjes më ndihmoi të zgjidhja produktin e duhur për lëkurën time të ndjeshme. Shërbim profesional dhe produkte shumë cilësore!"',
-    "home.t3.location": "Blerëse e Verifikuar · Shkodër",
+      '"Më ndihmuan të zgjedh produktin e duhur për lëkurën time. Shërbimi ishte i sjellshëm dhe i shpejtë."',
+    "home.t3.location": "Kliente · Shkodër",
 
     "home.news.title": "Bashkohu me Komunitetin Velura",
     "home.news.desc":
-      "Këshilla kujdesi për lëkurën, oferta ekskluzive dhe produkte të reja direkt në kutinë tuaj postare.",
+      "Merr këshilla për kujdesin e lëkurës, oferta dhe lajme për produktet e reja.",
     "home.news.btn": "Abonohu",
     "home.news.placeholder": "Adresa juaj e emailit",
-    "home.news.disclaimer": "Pa spam, kurrë. Çabonohuni në çdo kohë.",
+    "home.news.disclaimer": "Pa spam. Mund të çabonoheni në çdo kohë.",
 
     /* ======================================================
        ABOUT PAGE
        ====================================================== */
     "about.hero.title": "Bukuria që Meriton Kujdes",
     "about.hero.desc":
-      "Jemi një ekip i pasionuar specialistësh kozmetikë me mision për t'i sjellë grave shqiptare kujdesin premium që meritojnë.",
+      "Jemi një ekip i vogël me pasion për kujdesin e lëkurës dhe për produkte kozmetike cilësore.",
     "about.hero.bc": "Rreth Nesh",
     "about.visual.cap": "Themeluar me pasion në 2026",
 
     "about.story.label": "Historia Jonë",
-    "about.story.title": "Nga Pasioni për Lëkurën deri te Dyqani Juaj",
+    "about.story.title": "Nga Një Ide e Thjeshtë te Velura Beauty",
     "about.story.p1":
-      "Velura Beauty u themelua në 2026 nga Florinda Shelqizi, kimiste kozmetike me mbi 10 vjet përvojë. Florinda vuri re se tregu shqiptar mungonte produkte premium me përbërës natyralë dhe formula dermatologjikisht të testuara.",
+      "Velura Beauty u krijua si një ide e thjeshtë për ta bërë më të lehtë blerjen e produkteve kozmetike online. Qëllimi ynë është të ofrojmë produkte të qarta, të bukura dhe të përshtatshme për përdorim të përditshëm.",
     "about.story.p2":
-      "Florinda bashkëpunoi me specialistë të kujdesit të lëkurës për të ndërtuar diçka ndryshe: një brand kozmetik me formula shkencore, me burime etike dhe me transparencë të plotë. Filluam me 5 produkte bazë dhe jemi rritur deri në mbi 150 produkte premium.",
+      "Ne fokusohemi te kremërat, serumet dhe produktet bazë për kujdesin e lëkurës. Çdo produkt prezantohet me përshkrim të qartë, çmim të dukshëm dhe informacion të thjeshtë për përdorim.",
     "about.story.p3":
-      "Sot, Velura Beauty dërgon mijëra porosi çdo muaj në të gjithë Shqipërinë. Misioni ynë mbetet i njëjtë — çdo grua meriton lëkurën e saj më të mirë.",
+      "Sot, Velura Beauty synon të jetë një dyqan online i thjeshtë, i pastër dhe i besueshëm për klientët që kërkojnë produkte kozmetike në Shqipëri.",
 
     "about.h1.title": "Themeluar në 2026",
-    "about.h1.desc": "Filloi në Tiranë nga kimiste kozmetike",
-    "about.h2.title": "Dërgim në të gjithë Shqipërinë",
-    "about.h2.desc": "Dorëzim i shpejtë kudo në vend",
-    "about.h3.title": "Teste Dermatologjike",
-    "about.h3.desc": "Të gjitha produktet janë të testuara dhe të sigurta",
-    "about.h4.title": "150+ Produkte",
-    "about.h4.desc": "Nga kremët bazë deri te trajtimet premium",
+    "about.h1.desc": "Projektuar si dyqan online kozmetik",
+    "about.h2.title": "Dërgesë në Shqipëri",
+    "about.h2.desc": "Porosi të paketuara me kujdes",
+    "about.h3.title": "Produkte të Përzgjedhura",
+    "about.h3.desc": "Kremëra, serume dhe kujdes trupi",
+    "about.h4.title": "20+ Produkte",
+    "about.h4.desc": "Nga kremërat e fytyrës deri te setet e kujdesit",
 
     "about.stats.p1": "Viti i Themelimit",
-    "about.stats.p2": "Klienta të Lumtur",
-    "about.stats.p3": "Produkte Premium",
-    "about.stats.p4": "Përbërës Natyralë",
+    "about.stats.p2": "Klientë të Parë",
+    "about.stats.p3": "Produkte",
+    "about.stats.p4": "Kujdes për Lëkurën",
 
-    "about.values.label": "Çfarë Mbrojmë",
+    "about.values.label": "Çfarë Përfaqësojmë",
     "about.values.title": "Vlerat Tona Kryesore",
     "about.values.desc":
-      "Parimet që udhëheqin çdo vendim tonë — nga formulat që krijojmë deri te mënyra si dërgojmë porosinë tuaj.",
-    "about.v1.title": "Natyralë & të Pastër",
+      "Parimet që udhëheqin mënyrën si zgjedhim produktet, si i prezantojmë ato dhe si komunikojmë me klientët.",
+    "about.v1.title": "Thjeshtësi",
     "about.v1.desc":
-      "Produktet tona janë pa parabene, pa sulfate dhe pa ingredientë agresivë — vetëm formula të pastra dhe efektive.",
-    "about.v2.title": "Cilësia Mbi Të Gjitha",
+      "Synojmë ta bëjmë blerjen online të lehtë, me informacione të qarta dhe pa përshkrime të ndërlikuara.",
+    "about.v2.title": "Cilësi",
     "about.v2.desc":
-      "Çdo produkt testohet rreptësisht para lëshimit. Nuk bëjmë kompromis me cilësinë — lëkura juaj meriton vetëm më të mirën.",
-    "about.v3.title": "Inovacion & Shkencë",
+      "Zgjedhim produkte që duken profesionale, janë të lehta për t’u kuptuar dhe i përshtaten nevojave të klientëve.",
+    "about.v3.title": "Kujdes",
     "about.v3.desc":
-      "Investojmë vazhdimisht në kërkim dhe zhvillim. Formulat tona kombinojnë gjetjet më të reja shkencore me ingredientë të provuar.",
-    "about.v4.title": "Komuniteti",
+      "Çdo faqe, përshkrim dhe formular është ndërtuar që klienti të gjejë shpejt informacionin që i duhet.",
+    "about.v4.title": "Komunitet",
     "about.v4.desc":
-      "Po ndërtojmë një komunitet grash shqiptare që ndajnë udhëtimet e tyre me kujdesin e lëkurës, këshillat dhe sukseset.",
+      "Duam të krijojmë një hapësirë ku klientët mund të mësojnë më shumë për kujdesin e lëkurës dhe produktet që përdorin.",
 
     "about.team.label": "Njerëzit Pas Velura Beauty",
-    "about.team.title": "Takoni Ekipin Tonë",
+    "about.team.title": "Ekipi Ynë",
     "about.team.desc":
-      "Grup i pasionuar kimistësh kozmetikë, specialistësh dhe entuziastësh të kujdesit të lëkurës — të bashkuar nga dashuria ndaj bukurisë natyrale.",
-    "about.m1.role": "Themeluese & Drejtore e R&D",
+      "Një ekip i vogël që merret me përzgjedhjen e produkteve, përgatitjen e porosive dhe komunikimin me klientët.",
+    "about.m1.role": "Themeluese",
     "about.m1.desc":
-      "Florinda ka diplomë në Kimi Kozmetike dhe 10 vjet përvojë në zhvillimin e formulave. Ajo personalisht miraton çdo formulë të re para lëshimit.",
-    "about.m2.role": "Kreu i Operacioneve",
+      "Florinda kujdeset për idenë e markës, përzgjedhjen e produkteve dhe prezantimin e tyre në faqe.",
+    "about.m2.role": "Menaxher Operacionesh",
     "about.m2.desc":
-      "Erion siguron që çdo porosi të largohet nga magazina jonë në gjendje perfekte. Me pasion për cilësinë, ai menaxhon të gjithë procesin e dorëzimit.",
-    "about.m3.role": "Kreu i Shërbimit ndaj Klientit",
+      "Erioni merret me organizimin e porosive, paketimin dhe dërgesat.",
+    "about.m3.role": "Mbështetje për Klientët",
     "about.m3.desc":
-      "Mirela dhe ekipi i saj janë zërat miqësorë pas çdo bisede me klientët. Eksperte e kujdesit të lëkurës, ajo kupton saktësisht çfarë u nevojitet klientave.",
+      "Mirela ndihmon klientët me pyetje rreth produkteve, porosive dhe rekomandimeve bazë.",
 
-    "about.cta.title": "Gati të Zbulosh Lëkurën Tënde Më të Mirë?",
+    "about.cta.title": "Gati të Zbuloni Produktet Tona?",
     "about.cta.desc":
-      "Shfleto koleksionin tonë premium të kremeve dhe serumeve dhe gjej produktin e përsosur për llojin tënd të lëkurës.",
+      "Shfletoni koleksionin tonë dhe gjeni produktin që i përshtatet më mirë rutinës suaj.",
     "about.cta.btn_browse": "Zbulo Produktet →",
     "about.cta.btn_contact": "Na Kontakto",
 
     /* ======================================================
        PRODUCTS PAGE
        ====================================================== */
-    "prod.hero.title": "Koleksioni Ynë i Kremeve",
+    "prod.hero.title": "Koleksioni Ynë",
     "prod.hero.desc":
-      "Mbi 150 produkte premium kozmetike — nga kremë hidratuese deri te serumet e fuqishme anti-plakje.",
+      "Më shumë se 20 produkte kozmetike — nga kremërat e fytyrës deri te setet e kujdesit të plotë.",
     "prod.hero.bc": "Produktet",
 
     "prod.filter.all": "Të Gjitha",
     "prod.filter.indoor": "Kremë Fytyre",
     "prod.filter.succulent": "Kujdes Trupi",
-    "prod.filter.flowering": "Serumet & Trajtimet",
+    "prod.filter.flowering": "Serume & Trajtime",
     "prod.filter.accessory": "Sete & Paketa",
 
     "prod.cat.indoor": "Krem Fytyre",
@@ -225,140 +224,118 @@ const translations = {
 
     "prod.p1.name": "Krem Hidratues për Fytyrë",
     "prod.p1.desc":
-      "Hidratim i thellë 24 orë me acid hialulonik dhe aloe vera. I shtatë për të gjitha llojet e lëkurës.",
+      "Krem hidratues për përdorim të përditshëm me acid hialuronik.",
     "prod.p2.name": "Krem Nate Anti-Plakje",
     "prod.p2.desc":
-      "Rigjenerim i natës me retinol dhe peptide. Redukton rrudhat dhe forcon elasticitetin e lëkurës.",
-    "prod.p3.name": "Krem për Rreth Sysh",
-    "prod.p3.desc":
-      "Formula e butë specifike për zonën delikate rreth syve. Redukton rrathët e errët dhe fryerjen.",
+      "Krem nate me teksturë të pasur, i përshtatshëm për rutinën e mbrëmjes.",
+    "prod.p3.name": "Krem për Rreth Syve",
+    "prod.p3.desc": "Formulë e butë për zonën delikate rreth syve.",
     "prod.p4.name": "Krem Dite SPF 50",
-    "prod.p4.desc":
-      "Mbrojtje nga dielli dhe hidratim në një krem. SPF 50 me teksturë të lehtë dhe jo yndyrore.",
-    "prod.p5.name": "Locion Trupi Hidratues",
-    "prod.p5.desc":
-      "Hidratim i gjatë me gjalpe shea dhe vaj kokosi. Lëkura mbetet e butë dhe e ndriçuar gjatë gjithë ditës.",
-    "prod.p6.name": "Krem Trupi Forcues",
-    "prod.p6.desc":
-      "Forcon dhe tonifikon lëkurën e trupit. Me kafeinë, retinol dhe ekstrakt algash.",
-    "prod.p7.name": "Krem Duarsh i Butë",
-    "prod.p7.desc":
-      "Ushqen dhe protekton duart nga tharia. Me gjalpe shea, panthenol dhe vaj bajameje.",
-    "prod.p8.name": "Krem Trupor me Bajame",
-    "prod.p8.desc":
-      "Teksturë kremoze me aromë të butë bajameje. Ushqen thellë dhe lë lëkurën mëndafshoje.",
-    "prod.p9.name": "Serum Vitamina C",
+    "prod.p4.desc": "Krem dite me mbrojtje nga dielli dhe hidratim të lehtë.",
+    "prod.p5.name": "Locion Hidratues për Trup",
+    "prod.p5.desc": "Locion me gjalpë shea dhe vaj kokosi për lëkurë të butë.",
+    "prod.p6.name": "Krem Forcues për Trup",
+    "prod.p6.desc": "Krem për kujdesin e përditshëm të lëkurës së trupit.",
+    "prod.p7.name": "Krem i Butë për Duar",
+    "prod.p7.desc": "Ushqen dhe mbron duart nga tharja.",
+    "prod.p8.name": "Krem Trupi me Bajame",
+    "prod.p8.desc": "Teksturë kremoze me aromë të butë bajameje.",
+    "prod.p9.name": "Serum me Vitaminë C",
     "prod.p9.desc":
-      "Ndriçon dhe barazon tonin e lëkurës. Formula me 15% Vitamina C stabël, Niacinamide dhe Ferulic Acid.",
-    "prod.p10.name": "Serum Retinol",
-    "prod.p10.desc":
-      "Trajtim intensiv anti-plakje. Retinol 0.5% plus kompleks peptidesh për rinisim të shpejtë.",
-    "prod.p11.name": "Serum Kollagjen & Peptide",
+      "Serum për një pamje më të freskët dhe më të ndriçuar të lëkurës.",
+    "prod.p10.name": "Serum me Acid Hialuronik",
+    "prod.p10.desc": "Serum hidratues me teksturë të lehtë.",
+    "prod.p11.name": "Serum me Niacinamide",
     "prod.p11.desc":
-      "Forcon lëkurën dhe redukton humbjen e elasticitetit. Teknologji e avancuar peptidesh me multiplex kollagjen.",
-    "prod.p12.name": "Maska Natë Rigjeneruese",
-    "prod.p12.desc":
-      "Trajtim intensiv gjatë gjumit. Melatonin, acid hialulonik dhe ekstrakt trëndafili rigjenerojnë lëkurën gjatë natës.",
-    "prod.p13.name": "Set Pastrimi i Plotë",
-    "prod.p13.desc":
-      "Set tre produktesh: shkumë pastrimi, ujë mikellar dhe tonik rifreskues. Rutinë e plotë pastrimi.",
-    "prod.p14.name": "Kit i Plotë Kujdesi",
-    "prod.p14.desc":
-      "Gjithçka për rutinën tuaj: krem dite, krem nate, serum, krem sysh dhe locion trupi. Kurseni 25%.",
-    "prod.p15.name": "Shkumë Pastrimi Delikate",
-    "prod.p15.desc":
-      "Pastron me butësi pa tharë lëkurën. Formula me aloe vera dhe calendula për lëkurën e ndjeshme.",
-    "prod.p16.name": "Toner Hidratues",
-    "prod.p16.desc":
-      "Balancon pH-in e lëkurës dhe përgatit për produktet e tjera. Me acid hialulonik dhe niacinamide.",
+      "Serum për kujdes të përditshëm dhe pamje më të balancuar të lëkurës.",
+    "prod.p12.name": "Set Bazë për Kujdesin e Lëkurës",
+    "prod.p12.desc": "Set me produkte bazë për një rutinë të thjeshtë ditore.",
+    "prod.p13.name": "Set Dhuratë Velura",
+    "prod.p13.desc": "Set i paketuar bukur, i përshtatshëm për dhuratë.",
+    "prod.p14.name": "Maskë Hidratante për Fytyrë",
+    "prod.p14.desc": "Maskë për hidratim dhe freski të lëkurës.",
+    "prod.p15.name": "Pastrues i Butë për Fytyrë",
+    "prod.p15.desc": "Pastrues i lehtë për përdorim të përditshëm.",
 
-    "prod.promo.title": "🎁 Mostra Falas",
-    "prod.promo.desc":
-      "Shpenzoni mbi 5,000 LEK dhe merrni një set mostrash falas — 5 produkte mini me vlerë 1,500 LEK. Shtohet automatikisht në arkë.",
-    "prod.promo.btn": "Mëso Më Shumë →",
+    "prod.cta.title": "Nuk Jeni të Sigurt Cilin Produkt të Zgjidhni?",
+    "prod.cta.desc":
+      "Na kontaktoni dhe ne do t’ju ndihmojmë të gjeni produktin më të përshtatshëm për rutinën tuaj.",
+    "prod.cta.btn": "Na Kontakto",
 
     /* ======================================================
        CONTACT PAGE
        ====================================================== */
-    "contact.hero.title": "Jemi Këtu për Ju",
+    "contact.hero.title": "Na Shkruani",
     "contact.hero.desc":
-      "Pyetje për produktet, këshilla kozmetike, ose thjesht një përshëndetje — ekipi ynë është i disponueshëm gjithmonë.",
+      "Keni pyetje për produktet, porositë apo kujdesin e lëkurës? Na kontaktoni dhe do t’ju përgjigjemi sa më shpejt.",
     "contact.hero.bc": "Kontakt",
 
     "contact.addr.title": "Adresa Jonë",
     "contact.email.title": "Na Shkruani",
-    "contact.email.note": "Përgjigjemi brenda 24 orëve",
+    "contact.email.note": "Përgjigjemi brenda 24 orësh",
     "contact.phone.title": "Na Telefononi",
     "contact.phone.note": "Hën–Pre 9:00–18:00",
-    "contact.hours.title": "Oraret e Punës",
-    "contact.hours.l1": "E Hënë – E Premte: 9:00 – 18:00",
-    "contact.hours.l2": "E Shtunë: 10:00 – 16:00",
-    "contact.hours.l3": "E Diel: Mbyllur",
+    "contact.hours.title": "Orari i Punës",
+    "contact.hours.l1": "E hënë – E premte: 9:00–18:00",
+    "contact.hours.l2": "E shtunë: 10:00–16:00",
+    "contact.hours.l3": "E diel: Mbyllur",
 
-    "contact.form.title": "Na Dërgoni një Mesazh",
+    "contact.form.title": "Dërgoni një Mesazh",
     "contact.form.desc":
-      "Plotësoni formularin dhe ekipi ynë do t'ju kthejë përgjigje shpejt.",
+      "Plotësoni formularin dhe ne do t’ju përgjigjemi sa më shpejt.",
     "contact.form.fname": "Emri",
     "contact.form.lname": "Mbiemri",
-    "contact.form.email": "Adresa Email",
-    "contact.form.phone": "Telefon (opsional)",
-    "contact.form.subject": "Tema",
-    "contact.form.select": "Zgjidh një temë...",
-    "contact.form.opt1": "Mbështetje Porosie",
-    "contact.form.opt2": "Këshilla Kozmetike",
+    "contact.form.email": "Adresa e Emailit",
+    "contact.form.phone": "Telefoni (opsional)",
+    "contact.form.subject": "Subjekti",
+    "contact.form.select": "Zgjidhni një temë...",
+    "contact.form.opt1": "Ndihmë për Porosinë",
+    "contact.form.opt2": "Këshilla për Lëkurën",
     "contact.form.opt3": "Kthime & Rimbursime",
-    "contact.form.opt4": "Kërkesë Shumicë",
-    "contact.form.opt5": "Kërkesë e Përgjithshme",
+    "contact.form.opt4": "Bashkëpunim / Shitje me Shumicë",
+    "contact.form.opt5": "Pyetje e Përgjithshme",
     "contact.form.opt6": "Tjetër",
     "contact.form.message": "Mesazhi Juaj",
     "contact.form.submit": "Dërgo Mesazhin →",
-    "contact.form.ph_fname": "Florinda",
-    "contact.form.ph_lname": "Shelqizi",
-    "contact.form.ph_msg": "Na tregoni si mund t'ju ndihmojmë...",
-    "contact.form.success":
-      "✅ Mesazhi u dërgua! Do t'ju kontaktojmë brenda 24 orëve.",
+    "contact.form.ph_fname": "Emri juaj",
+    "contact.form.ph_lname": "Mbiemri juaj",
+    "contact.form.ph_msg": "Na tregoni si mund t’ju ndihmojmë...",
 
-    "contact.faq.label": "Pyetje të Shpeshta",
+    "contact.faq.label": "FAQ",
     "contact.faq.title": "Pyetje të Shpeshta",
     "contact.faq.desc":
-      "Nuk gjeni çfarë po kërkoni? Na dërgoni një mesazh dhe do ndihmojmë me kënaqësi.",
+      "Nuk gjetët përgjigjen? Na shkruani dhe do t’ju ndihmojmë me kënaqësi.",
     "contact.q1": "Sa kohë zgjat dorëzimi?",
     "contact.a1":
-      "Dërgimi standard zgjat 1–3 ditë pune në të gjithë Shqipërinë. Dërgojmë nga e Hëna deri të Premten. Do merrni konfirmim dhe lidhje gjurmimi me email.",
-    "contact.q2": "A janë produktet tuaja të sigurta për lëkurën e ndjeshme?",
+      "Dërgesa zakonisht zgjat 2–4 ditë pune, në varësi të qytetit dhe adresës së dorëzimit.",
+    "contact.q2": "A mund të kthej një produkt?",
     "contact.a2":
-      "Po! Të gjitha produktet tona janë testuar dermatologjikisht dhe janë të sigurta edhe për lëkurë të ndjeshme. Nëse keni shqetësime specifike, ekipi ynë mund t'ju ndihmojë të zgjidhni produktin e duhur.",
-    "contact.q3": "Çfarë nëse produkti nuk funksionon për lëkurën time?",
+      "Po, produktet mund të kthehen sipas kushteve tona të kthimit, nëse janë të papërdorura dhe në paketimin origjinal.",
+    "contact.q3": "Si mund të zgjedh produktin e duhur?",
     "contact.a3":
-      "Ofrojmë garanci 30-ditore. Nëse nuk jeni të kënaqur me çfarëdo arsye brenda 30 ditëve, rimbursojmë plotësisht — pa pyetje.",
-    "contact.q4": "A ofroni këshilla kozmetike?",
+      "Mund të na shkruani me informacion rreth llojit të lëkurës suaj dhe ne do t’ju sugjerojmë një opsion të përshtatshëm.",
+    "contact.q4": "A bëni dërgesa jashtë Shqipërisë?",
     "contact.a4":
-      "Absolutisht! Ekipi ynë i specialistëve kozmetikë është i disponueshëm 7 ditë në javë me email dhe nga e Hëna deri të Shtunë me telefon. Na kontaktoni për të gjetur produktin ideal për llojin tuaj të lëkurës.",
-    "contact.q5": "A mund të kthej produktin nëse nuk jam e kënaqur?",
-    "contact.a5":
-      "Po, ofrojmë kthim të lehtë brenda 30 ditëve nga data e blerjes nëse produkti nuk ju përshtatet. Kontaktoni ekipin tonë dhe do organizojmë procesin e kthimit.",
-    "contact.q6": "A ofroni porosi shumicë për biznese?",
-    "contact.a6":
-      "Po! Punojmë me sallone bukurie, spa, hotele dhe biznese të tjera. Zgjidhni 'Kërkesë Shumicë' dhe na tregoni sasinë dhe produktet që ju interesojnë. Do t'ju ofrojmë çmime preferenciale.",
+      "Për momentin fokusohemi kryesisht te dërgesat brenda Shqipërisë.",
   },
 
   en: {
     /* --- NAV --- */
     "nav.home": "Home",
-    "nav.about": "About",
+    "nav.about": "About Us",
     "nav.products": "Products",
     "nav.contact": "Contact",
     "nav.shop": "Shop Now",
 
     /* --- FOOTER --- */
     "footer.desc":
-      "Your trusted online destination for beautiful indoor plants. We help you create a greener, healthier, happier home — one plant at a time.",
+      "Your online shop for cosmetic products and everyday skincare.",
     "footer.shop": "Shop",
     "footer.all_plants": "All Products",
     "footer.indoor": "Face Creams",
     "footer.succulents": "Body Care",
     "footer.flowering": "Serums & Treatments",
-    "footer.accessories": "Accessories",
+    "footer.accessories": "Sets & Bundles",
     "footer.company": "Company",
     "footer.about": "About Us",
     "footer.team": "Our Team",
@@ -374,7 +351,6 @@ const translations = {
     "footer.copy": "© 2026 Velura Beauty. All rights reserved.",
     "footer.legal": "Privacy Policy · Terms of Service",
 
-    /* --- BADGES & SHARED BUTTONS --- */
     "badge.bestseller": "Bestseller",
     "badge.new": "New",
     "badge.popular": "Popular",
@@ -384,357 +360,414 @@ const translations = {
     "btn.sending": "Sending…",
     "breadcrumb.home": "Home",
 
-    /* ======================================================
-       HOME PAGE
-       ====================================================== */
+    /* HOME */
     "home.hero.badge": "✨ Free shipping on orders over 3,000 LEK",
-    "home.hero.h1": "Your Skin <span>Deserves</span><br>The Very Best",
+    "home.hero.h1": "Your <span>Skin</span><br>Deserves Better Care",
     "home.hero.desc":
-      "Discover our premium collection of creams, serums and skincare products. Dermatologically tested formulas with natural ingredients — delivered to your door.",
-    "home.hero.btn_shop": "Discover Products →",
+      "Discover our collection of creams, serums and skincare products. Carefully selected formulas, delivered to your door.",
+    "home.hero.btn_shop": "Explore Products →",
     "home.hero.btn_story": "Our Story",
-    "home.hero.stat1": "Premium products",
-    "home.hero.stat2": "Happy customers",
-    "home.hero.stat3": "Average rating",
-    "home.hero.caption": "Carefully curated for you",
+    "home.hero.stat1": "Cosmetic products",
+    "home.hero.stat2": "Early customers",
+    "home.hero.stat3": "Product categories",
+    "home.hero.caption": "Carefully selected for you",
 
     "home.why.label": "Why Velura Beauty",
-    "home.why.title": "Skincare Made Simple",
+    "home.why.title": "Simple and Effective Care",
     "home.why.desc":
-      "Everything you need for your ideal skin, without compromise.",
+      "Selected products for an easier and more organized skincare routine.",
 
-    "home.feat1.title": "Fast & Safe Delivery",
+    "home.feat1.title": "Fast and Safe Delivery",
     "home.feat1.desc":
-      "Products are carefully packed and delivered within 1–3 business days across Albania. Every order arrives in perfect condition.",
-    "home.feat2.title": "Dermatologically Tested",
+      "Products are packed carefully and delivered within 2–4 business days.",
+    "home.feat2.title": "Dermatologically Tested Formulas",
     "home.feat2.desc":
-      "All our creams and serums are dermatologically tested and safe for sensitive skin. Guaranteed quality.",
-    "home.feat3.title": "Natural & Clean Ingredients",
+      "Our creams and serums are selected for everyday use and different skin types.",
+    "home.feat3.title": "Selected Ingredients",
     "home.feat3.desc":
-      "Our formulas combine modern science with the power of nature. No parabens, no sulfates — only what works.",
+      "Our formulas combine modern skincare with gentle ingredients.",
     "home.feat4.title": "30-Day Guarantee",
     "home.feat4.desc":
-      "If you're not satisfied within 30 days, we'll give you a full refund — no questions asked.",
-    "home.feat5.title": "Premium Quality",
+      "If you are not satisfied with your order, you can contact us for a return or refund.",
+    "home.feat5.title": "Careful Quality",
     "home.feat5.desc":
-      "We source only from certified suppliers with international standards. Quality guaranteed.",
-    "home.feat6.title": "7-Day Support",
+      "Each product is selected with quality, use and customer needs in mind.",
+    "home.feat6.title": "Customer Support",
     "home.feat6.desc":
-      "Our team of cosmetic specialists is available 7 days a week for advice and assistance.",
+      "Our team is ready to help with questions about products, orders and skincare routines.",
 
     "home.products.label": "Bestsellers",
-    "home.products.title": "Our Featured Products",
+    "home.products.title": "Selected Products",
     "home.products.desc":
-      "Our most-loved creams and serums, handpicked by our team. Perfect for every skin type.",
+      "Some of our preferred products for face and body care.",
     "home.products.view_all": "View All Products →",
 
     "home.p1.cat": "Face Cream",
     "home.p1.name": "Hydrating Face Cream",
     "home.p1.desc":
-      "Deep 24-hour hydration with hyaluronic acid and aloe vera. Suitable for all skin types.",
+      "Daily hydrating cream with hyaluronic acid and aloe vera. Suitable for most skin types.",
     "home.p2.cat": "Serum",
     "home.p2.name": "Vitamin C Serum",
-    "home.p2.desc":
-      "Brightens and evens skin tone. Concentrated formula with 15% stable Vitamin C.",
+    "home.p2.desc": "Serum for a fresher and brighter-looking skin appearance.",
     "home.p3.cat": "Night Cream",
     "home.p3.name": "Anti-Aging Night Cream",
-    "home.p3.desc":
-      "Overnight regeneration with retinol, peptides and argan oil. Wake up with softer skin every morning.",
+    "home.p3.desc": "Rich night cream designed to nourish the skin overnight.",
     "home.p4.cat": "Body Care",
     "home.p4.name": "Hydrating Body Lotion",
-    "home.p4.desc":
-      "Long-lasting hydration with shea butter and coconut oil. Skin stays soft and radiant all day.",
+    "home.p4.desc": "Light body lotion with shea butter and coconut oil.",
 
-    "home.stats.p1": "Premium Products",
-    "home.stats.p2": "Happy Customers",
-    "home.stats.p3": "Customer Satisfaction",
+    "home.stats.p1": "Products",
+    "home.stats.p2": "Customers",
+    "home.stats.p3": "Categories",
     "home.stats.v4": "30 Days",
     "home.stats.p4": "Return Guarantee",
 
     "home.reviews.label": "Customer Reviews",
     "home.reviews.title": "What Our Customers Say",
     "home.reviews.desc":
-      "Real stories from real women who've transformed their skincare routine with Velura Beauty.",
-
+      "A few comments from customers who tried our products.",
     "home.t1.text":
-      '"The Hydrating Cream completely transformed my skin! After just two weeks, my skin is noticeably softer and more radiant. I wholeheartedly recommend it!"',
-    "home.t1.location": "Verified Buyer · Tirana",
+      '"I really liked the hydrating cream. It has a light texture and my skin feels softer after using it."',
+    "home.t1.location": "Customer · Tirana",
     "home.t2.text":
-      '"The Vitamin C Serum is absolutely amazing. Dark spots disappeared within a month. Quality products and fast delivery!"',
-    "home.t2.location": "Verified Buyer · Durrës",
+      '"The Vitamin C serum became part of my morning routine. I like that it absorbs quickly."',
+    "home.t2.location": "Customer · Durrës",
     "home.t3.text":
-      '"The support team helped me find the right product for my sensitive skin. Professional service and very high quality products!"',
-    "home.t3.location": "Verified Buyer · Shkodër",
+      '"They helped me choose the right product for my skin. The service was kind and fast."',
+    "home.t3.location": "Customer · Shkodër",
 
     "home.news.title": "Join the Velura Community",
     "home.news.desc":
-      "Skincare tips, exclusive deals and new arrivals straight to your inbox.",
+      "Get skincare tips, offers and updates about new products.",
     "home.news.btn": "Subscribe",
     "home.news.placeholder": "Your email address",
-    "home.news.disclaimer": "No spam, ever. Unsubscribe at any time.",
+    "home.news.disclaimer": "No spam. Unsubscribe anytime.",
 
-    /* ======================================================
-       ABOUT PAGE
-       ====================================================== */
+    /* ABOUT */
     "about.hero.title": "Beauty That Deserves Care",
     "about.hero.desc":
-      "We are a passionate team of cosmetic specialists on a mission to bring Albanian women the premium care they deserve.",
+      "We are a small team passionate about skincare and quality cosmetic products.",
     "about.hero.bc": "About Us",
     "about.visual.cap": "Founded with passion in 2026",
 
     "about.story.label": "Our Story",
-    "about.story.title": "From a Passion for Skin to Your Doorstep",
+    "about.story.title": "From a Simple Idea to Velura Beauty",
     "about.story.p1":
-      "Velura Beauty was founded in 2026 by Florinda Shelqizi, a cosmetic chemist with over 10 years of experience. Florinda noticed that the Albanian market lacked premium products with natural ingredients and dermatologically tested formulas.",
+      "Velura Beauty started as a simple idea to make online cosmetic shopping easier.",
     "about.story.p2":
-      "Florinda teamed up with skincare specialists to build something different: a cosmetic brand with scientifically accurate formulas, ethical sourcing, and full transparency. We started with 5 core products and have grown to over 150 premium products.",
+      "We focus on creams, serums and basic skincare products. Each product is presented with clear descriptions and visible prices.",
     "about.story.p3":
-      "Today, Velura Beauty ships thousands of orders every month across Albania. Our mission remains the same — every woman deserves her best skin.",
+      "Today, Velura Beauty aims to be a simple, clean and trustworthy online shop for customers looking for cosmetic products in Albania.",
 
     "about.h1.title": "Founded in 2026",
-    "about.h1.desc": "Started in Tirana by a cosmetic chemist",
-    "about.h2.title": "Delivery Across Albania",
-    "about.h2.desc": "Fast delivery anywhere in the country",
-    "about.h3.title": "Dermatological Testing",
-    "about.h3.desc": "All products are tested and safe",
-    "about.h4.title": "150+ Products",
-    "about.h4.desc": "From basic creams to premium treatments",
+    "about.h1.desc": "Designed as an online cosmetics shop",
+    "about.h2.title": "Delivery in Albania",
+    "about.h2.desc": "Orders packed with care",
+    "about.h3.title": "Selected Products",
+    "about.h3.desc": "Creams, serums and body care",
+    "about.h4.title": "20+ Products",
+    "about.h4.desc": "From face creams to skincare sets",
 
     "about.stats.p1": "Year Founded",
-    "about.stats.p2": "Happy Customers",
-    "about.stats.p3": "Premium Products",
-    "about.stats.p4": "Natural Ingredients",
+    "about.stats.p2": "Early Customers",
+    "about.stats.p3": "Products",
+    "about.stats.p4": "Skincare",
 
     "about.values.label": "What We Stand For",
     "about.values.title": "Our Core Values",
     "about.values.desc":
-      "The principles that guide every decision we make — from the formulas we create to how we ship your order.",
-    "about.v1.title": "Natural & Clean",
+      "The principles that guide how we select products, present them and communicate with customers.",
+    "about.v1.title": "Simplicity",
     "about.v1.desc":
-      "Our products are free from parabens, sulfates and harsh ingredients — only clean, effective formulas.",
-    "about.v2.title": "Quality First",
+      "We want online shopping to be easy, with clear information and simple descriptions.",
+    "about.v2.title": "Quality",
     "about.v2.desc":
-      "Every product is rigorously tested before launch. We don't compromise on quality — your skin deserves the best.",
-    "about.v3.title": "Innovation & Science",
+      "We select products that look professional and match customer needs.",
+    "about.v3.title": "Care",
     "about.v3.desc":
-      "We continuously invest in research and development. Our formulas combine the latest scientific findings with proven ingredients.",
+      "Each page, description and form is designed to help customers find information quickly.",
     "about.v4.title": "Community",
     "about.v4.desc":
-      "We're building a community of Albanian women who share their skincare journeys, tips and successes.",
+      "We want to create a space where customers can learn more about skincare and the products they use.",
 
     "about.team.label": "The People Behind Velura Beauty",
-    "about.team.title": "Meet Our Team",
+    "about.team.title": "Our Team",
     "about.team.desc":
-      "A passionate group of cosmetic chemists, specialists and skincare enthusiasts — united by a love of natural beauty.",
-    "about.m1.role": "Founder & Head of R&D",
+      "A small team focused on product selection, orders and customer communication.",
+    "about.m1.role": "Founder",
     "about.m1.desc":
-      "Florinda holds a degree in Cosmetic Chemistry and has 10 years of experience in skincare formulation. She personally approves every new formula before launch.",
-    "about.m2.role": "Head of Operations",
-    "about.m2.desc":
-      "Erion ensures every order leaves our warehouse in perfect condition. With a passion for quality, he manages the entire delivery process.",
-    "about.m3.role": "Customer Experience Lead",
+      "Florinda takes care of the brand idea, product selection and product presentation.",
+    "about.m2.role": "Operations Manager",
+    "about.m2.desc": "Erion organizes orders, packaging and delivery.",
+    "about.m3.role": "Customer Support",
     "about.m3.desc":
-      "Mirela and her team are the friendly voices behind every customer interaction. A skincare expert herself, she understands exactly what customers need.",
+      "Mirela helps customers with product questions, orders and basic recommendations.",
 
-    "about.cta.title": "Ready to Discover Your Best Skin?",
+    "about.cta.title": "Ready to Explore Our Products?",
     "about.cta.desc":
-      "Browse our premium collection of creams and serums and find the perfect product for your skin type.",
-    "about.cta.btn_browse": "Discover Products →",
-    "about.cta.btn_contact": "Get in Touch",
+      "Browse our collection and find a product that fits your routine.",
+    "about.cta.btn_browse": "Explore Products →",
+    "about.cta.btn_contact": "Contact Us",
 
-    /* ======================================================
-       PRODUCTS PAGE
-       ====================================================== */
-    "prod.hero.title": "Our Skincare Collection",
+    /* PRODUCTS */
+    "prod.hero.title": "Our Collection",
     "prod.hero.desc":
-      "Over 150 premium cosmetic products — from hydrating creams to powerful anti-aging serums.",
+      "More than 20 cosmetic products — from face creams to complete skincare sets.",
     "prod.hero.bc": "Products",
 
     "prod.filter.all": "All",
     "prod.filter.indoor": "Face Creams",
     "prod.filter.succulent": "Body Care",
     "prod.filter.flowering": "Serums & Treatments",
-    "prod.filter.accessory": "Sets & Kits",
+    "prod.filter.accessory": "Sets & Bundles",
 
     "prod.cat.indoor": "Face Cream",
     "prod.cat.succulent": "Body Care",
     "prod.cat.flowering": "Serum & Treatment",
-    "prod.cat.accessory": "Set & Kit",
+    "prod.cat.accessory": "Set & Bundle",
 
     "prod.p1.name": "Hydrating Face Cream",
-    "prod.p1.desc":
-      "Deep 24-hour hydration with hyaluronic acid and aloe vera. Suitable for all skin types.",
+    "prod.p1.desc": "Daily hydrating cream with hyaluronic acid.",
     "prod.p2.name": "Anti-Aging Night Cream",
-    "prod.p2.desc":
-      "Night regeneration with retinol and peptides. Reduces wrinkles and boosts skin elasticity.",
-    "prod.p3.name": "Eye Contour Cream",
-    "prod.p3.desc":
-      "Gentle formula specific to the delicate eye area. Reduces dark circles and puffiness.",
-    "prod.p4.name": "Day Cream SPF 50",
-    "prod.p4.desc":
-      "Sun protection and hydration in one cream. SPF 50 with light, non-greasy texture.",
+    "prod.p2.desc": "Rich night cream suitable for an evening routine.",
+    "prod.p3.name": "Eye Cream",
+    "prod.p3.desc": "Gentle formula for the delicate eye area.",
+    "prod.p4.name": "SPF 50 Day Cream",
+    "prod.p4.desc": "Day cream with sun protection and light hydration.",
     "prod.p5.name": "Hydrating Body Lotion",
-    "prod.p5.desc":
-      "Long-lasting hydration with shea butter and coconut oil. Skin stays soft and radiant all day.",
+    "prod.p5.desc": "Body lotion with shea butter and coconut oil.",
     "prod.p6.name": "Firming Body Cream",
-    "prod.p6.desc":
-      "Firms and tones body skin. With caffeine, retinol and algae extract.",
+    "prod.p6.desc": "Cream for everyday body skincare.",
     "prod.p7.name": "Soft Hand Cream",
-    "prod.p7.desc":
-      "Nourishes and protects hands from dryness. With shea butter, panthenol and almond oil.",
-    "prod.p8.name": "Sweet Almond Body Cream",
-    "prod.p8.desc":
-      "Creamy texture with a gentle almond scent. Deeply nourishes and leaves skin silky smooth.",
+    "prod.p7.desc": "Nourishes and protects hands from dryness.",
+    "prod.p8.name": "Almond Body Cream",
+    "prod.p8.desc": "Creamy texture with a soft almond scent.",
     "prod.p9.name": "Vitamin C Serum",
-    "prod.p9.desc":
-      "Brightens and evens skin tone. Formula with 15% stable Vitamin C, Niacinamide and Ferulic Acid.",
-    "prod.p10.name": "Retinol Serum",
-    "prod.p10.desc":
-      "Intensive anti-aging treatment. 0.5% Retinol plus peptide complex for rapid rejuvenation.",
-    "prod.p11.name": "Collagen & Peptide Serum",
+    "prod.p9.desc": "Serum for a fresher and brighter-looking skin appearance.",
+    "prod.p10.name": "Hyaluronic Acid Serum",
+    "prod.p10.desc": "Light hydrating serum.",
+    "prod.p11.name": "Niacinamide Serum",
     "prod.p11.desc":
-      "Strengthens skin and reduces loss of elasticity. Advanced peptide technology with multiplex collagen.",
-    "prod.p12.name": "Overnight Repair Mask",
-    "prod.p12.desc":
-      "Intensive overnight treatment. Melatonin, hyaluronic acid and rose extract regenerate skin during sleep.",
-    "prod.p13.name": "Complete Cleansing Set",
-    "prod.p13.desc":
-      "Set of three products: cleansing foam, micellar water and refreshing toner. Complete cleansing routine.",
-    "prod.p14.name": "Complete Skincare Kit",
-    "prod.p14.desc":
-      "Everything for your routine: day cream, night cream, serum, eye cream and body lotion. Save 25%.",
-    "prod.p15.name": "Gentle Cleansing Foam",
-    "prod.p15.desc":
-      "Gently cleanses without drying the skin. Formula with aloe vera and calendula for sensitive skin.",
-    "prod.p16.name": "Hydrating Toner",
-    "prod.p16.desc":
-      "Balances skin pH and prepares for other products. With hyaluronic acid and niacinamide.",
+      "Serum for everyday care and a more balanced skin appearance.",
+    "prod.p12.name": "Basic Skincare Set",
+    "prod.p12.desc": "Set with basic products for a simple daily routine.",
+    "prod.p13.name": "Velura Gift Set",
+    "prod.p13.desc": "Beautifully packaged set, suitable as a gift.",
+    "prod.p14.name": "Hydrating Face Mask",
+    "prod.p14.desc": "Mask for hydration and freshness.",
+    "prod.p15.name": "Gentle Face Cleanser",
+    "prod.p15.desc": "Light cleanser for everyday use.",
 
-    "prod.promo.title": "🎁 Free Samples",
-    "prod.promo.desc":
-      "Spend over 5,000 LEK and receive a free sample set — 5 mini products worth 1,500 LEK. Automatically added at checkout.",
-    "prod.promo.btn": "Learn More →",
+    "prod.cta.title": "Not Sure Which Product to Choose?",
+    "prod.cta.desc":
+      "Contact us and we will help you find the most suitable product for your routine.",
+    "prod.cta.btn": "Contact Us",
 
-    /* ======================================================
-       CONTACT PAGE
-       ====================================================== */
-    "contact.hero.title": "We're Here for You",
+    /* CONTACT */
+    "contact.hero.title": "Contact Us",
     "contact.hero.desc":
-      "Questions about products, skincare advice or just a hello — our team is always available.",
+      "Do you have questions about products, orders or skincare? Contact us and we will reply as soon as possible.",
     "contact.hero.bc": "Contact",
 
     "contact.addr.title": "Our Address",
     "contact.email.title": "Email Us",
     "contact.email.note": "We reply within 24 hours",
     "contact.phone.title": "Call Us",
-    "contact.phone.note": "Mon–Fri 9am–6pm",
+    "contact.phone.note": "Mon–Fri 9:00–18:00",
     "contact.hours.title": "Opening Hours",
-    "contact.hours.l1": "Monday – Friday: 9:00am – 6:00pm",
-    "contact.hours.l2": "Saturday: 10:00am – 4:00pm",
+    "contact.hours.l1": "Monday – Friday: 9:00–18:00",
+    "contact.hours.l2": "Saturday: 10:00–16:00",
     "contact.hours.l3": "Sunday: Closed",
 
-    "contact.form.title": "Send Us a Message",
+    "contact.form.title": "Send a Message",
     "contact.form.desc":
-      "Fill in the form and our team will get back to you shortly.",
+      "Fill in the form and we will reply as soon as possible.",
     "contact.form.fname": "First Name",
     "contact.form.lname": "Last Name",
     "contact.form.email": "Email Address",
     "contact.form.phone": "Phone (optional)",
     "contact.form.subject": "Subject",
-    "contact.form.select": "Select a topic...",
+    "contact.form.select": "Choose a topic...",
     "contact.form.opt1": "Order Support",
     "contact.form.opt2": "Skincare Advice",
     "contact.form.opt3": "Returns & Refunds",
-    "contact.form.opt4": "Wholesale Enquiry",
-    "contact.form.opt5": "General Enquiry",
+    "contact.form.opt4": "Wholesale / Partnership",
+    "contact.form.opt5": "General Question",
     "contact.form.opt6": "Other",
     "contact.form.message": "Your Message",
     "contact.form.submit": "Send Message →",
-    "contact.form.ph_fname": "Florinda",
-    "contact.form.ph_lname": "Shelqizi",
+    "contact.form.ph_fname": "Your first name",
+    "contact.form.ph_lname": "Your last name",
     "contact.form.ph_msg": "Tell us how we can help you...",
-    "contact.form.success":
-      "✅ Message sent! We'll be in touch within 24 hours.",
 
     "contact.faq.label": "FAQ",
     "contact.faq.title": "Frequently Asked Questions",
     "contact.faq.desc":
-      "Can't find what you're looking for? Send us a message above and we'll be happy to help.",
+      "Could not find the answer? Send us a message and we will be happy to help.",
     "contact.q1": "How long does delivery take?",
     "contact.a1":
-      "Standard delivery takes 1–3 business days across Albania. We dispatch orders Monday to Friday. You'll receive a confirmation and tracking link via email.",
-    "contact.q2": "Are your products safe for sensitive skin?",
+      "Delivery usually takes 2–4 business days, depending on the city and delivery address.",
+    "contact.q2": "Can I return a product?",
     "contact.a2":
-      "Yes! All our products are dermatologically tested and safe for sensitive skin. If you have specific concerns, our team can help you choose the right product.",
-    "contact.q3": "What if the product doesn't work for my skin?",
+      "Yes, products can be returned according to our return conditions, if they are unused and in the original packaging.",
+    "contact.q3": "How can I choose the right product?",
     "contact.a3":
-      "We offer a 30-day guarantee. If you're not satisfied for any reason within 30 days, we'll give you a full refund — no questions asked.",
-    "contact.q4": "Do you offer skincare advice?",
+      "You can message us with information about your skin type and we will suggest a suitable option.",
+    "contact.q4": "Do you deliver outside Albania?",
     "contact.a4":
-      "Absolutely! Our cosmetic specialist team is available 7 days a week via email and Monday–Saturday by phone. Contact us to find the ideal product for your skin type.",
-    "contact.q5": "Can I return a product if I'm not satisfied?",
-    "contact.a5":
-      "Yes, we offer easy returns within 30 days from the purchase date if the product doesn't suit you. Contact our team and we'll organise the return process.",
-    "contact.q6": "Do you offer wholesale orders for businesses?",
-    "contact.a6":
-      "Yes! We work with beauty salons, spas, hotels and other businesses. Select 'Wholesale Enquiry' and tell us the quantity and products you're interested in. We'll offer preferential pricing.",
+      "At the moment, we mainly focus on deliveries within Albania.",
   },
 };
 
 /* ============================================================
-   LANGUAGE ENGINE
+   Language Handling
    ============================================================ */
-let currentLang = localStorage.getItem("gl-lang") || "sq";
 
-/** Return the translation string for the current language */
-function t(key) {
-  return (
-    (translations[currentLang] && translations[currentLang][key]) ||
-    translations["en"][key] ||
-    key
-  );
-}
+let currentLang = localStorage.getItem("veluraLang") || "sq";
 
-/** Apply a language to the entire page */
 function applyLanguage(lang) {
   currentLang = lang;
-  localStorage.setItem("gl-lang", lang);
-  document.documentElement.lang = lang;
+  localStorage.setItem("veluraLang", lang);
 
-  /* textContent nodes */
-  document.querySelectorAll("[data-i18n]").forEach((el) => {
-    const val = translations[lang][el.dataset.i18n];
-    if (val !== undefined) el.textContent = val;
+  const dictionary = translations[lang];
+
+  document.querySelectorAll("[data-i18n]").forEach((element) => {
+    const key = element.getAttribute("data-i18n");
+    if (dictionary[key]) {
+      element.textContent = dictionary[key];
+    }
   });
 
-  /* innerHTML nodes (elements with embedded HTML like <span>, <br>) */
-  document.querySelectorAll("[data-i18n-html]").forEach((el) => {
-    const val = translations[lang][el.dataset.i18nHtml];
-    if (val !== undefined) el.innerHTML = val;
+  document.querySelectorAll("[data-i18n-html]").forEach((element) => {
+    const key = element.getAttribute("data-i18n-html");
+    if (dictionary[key]) {
+      element.innerHTML = dictionary[key];
+    }
   });
 
-  /* input placeholders */
-  document.querySelectorAll("[data-i18n-placeholder]").forEach((el) => {
-    const val = translations[lang][el.dataset.i18nPlaceholder];
-    if (val !== undefined) el.placeholder = val;
+  document.querySelectorAll("[data-i18n-placeholder]").forEach((element) => {
+    const key = element.getAttribute("data-i18n-placeholder");
+    if (dictionary[key]) {
+      element.setAttribute("placeholder", dictionary[key]);
+    }
   });
 
-  /* select option text */
-  document.querySelectorAll("[data-i18n-option]").forEach((el) => {
-    const val = translations[lang][el.dataset.i18nOption];
-    if (val !== undefined) el.textContent = val;
+  document.querySelectorAll("[data-i18n-option]").forEach((element) => {
+    const key = element.getAttribute("data-i18n-option");
+    if (dictionary[key]) {
+      element.textContent = dictionary[key];
+    }
   });
 
-  /* update toggle button label */
-  const btn = document.getElementById("langToggle");
-  if (btn) btn.textContent = lang === "sq" ? "English" : "Shqip";
+  const langToggle = document.getElementById("langToggle");
+  if (langToggle) {
+    langToggle.textContent = lang === "sq" ? "English" : "Shqip";
+  }
 }
 
 function toggleLanguage() {
-  applyLanguage(currentLang === "sq" ? "en" : "sq");
+  const nextLang = currentLang === "sq" ? "en" : "sq";
+  applyLanguage(nextLang);
 }
 
-/* Apply saved/default language as soon as DOM is ready */
-document.addEventListener("DOMContentLoaded", () => {
+/* ============================================================
+   Mobile Navigation
+   ============================================================ */
+
+function toggleNav() {
+  const navLinks = document.getElementById("navLinks");
+  if (navLinks) {
+    navLinks.classList.toggle("open");
+  }
+}
+
+/* ============================================================
+   Product Filtering
+   ============================================================ */
+
+document.addEventListener("click", function (event) {
+  if (event.target.classList.contains("filter-tab")) {
+    const filter = event.target.getAttribute("data-filter");
+
+    document.querySelectorAll(".filter-tab").forEach((button) => {
+      button.classList.remove("active");
+    });
+
+    event.target.classList.add("active");
+
+    document.querySelectorAll(".product-card").forEach((card) => {
+      const category = card.getAttribute("data-category");
+
+      if (filter === "all" || category === filter) {
+        card.style.display = "flex";
+      } else {
+        card.style.display = "none";
+      }
+    });
+  }
+});
+
+/* ============================================================
+   Add to Cart Button Demo
+   ============================================================ */
+
+document.addEventListener("click", function (event) {
+  if (event.target.classList.contains("add-to-cart")) {
+    const button = event.target;
+    const originalText = button.textContent;
+
+    button.textContent = translations[currentLang]["btn.added"] || "✓ Added!";
+    button.disabled = true;
+
+    setTimeout(() => {
+      button.textContent = originalText;
+      button.disabled = false;
+    }, 1500);
+  }
+});
+
+/* ============================================================
+   Contact Form Demo
+   ============================================================ */
+
+function handleSubmit(event) {
+  event.preventDefault();
+
+  const formSuccess = document.getElementById("formSuccess");
+  const form = document.getElementById("contactForm");
+
+  if (formSuccess) {
+    formSuccess.style.display = "block";
+  }
+
+  if (form) {
+    form.reset();
+  }
+}
+
+/* ============================================================
+   FAQ Toggle
+   ============================================================ */
+
+function toggleFaq(element) {
+  const answer = element.nextElementSibling;
+  const plus = element.querySelector("span:last-child");
+
+  if (!answer) return;
+
+  const isOpen = answer.style.display === "block";
+
+  answer.style.display = isOpen ? "none" : "block";
+
+  if (plus) {
+    plus.textContent = isOpen ? "+" : "−";
+  }
+}
+
+/* ============================================================
+   Apply Saved Language on Load
+   ============================================================ */
+
+document.addEventListener("DOMContentLoaded", function () {
   applyLanguage(currentLang);
 });

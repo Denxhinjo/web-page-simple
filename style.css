@@ -1399,3 +1399,43 @@ ul {
     grid-template-columns: 1fr;
   }
 }
+
+
+/* ============================================================
+   PRODUCT MOCKUPS — replaces emoji-only product visuals
+   ============================================================ */
+.product-image {
+  font-size: 0;
+}
+
+.product-image::before {
+  content: "";
+  width: 72px;
+  height: 118px;
+  border-radius: 18px 18px 14px 14px;
+  background: rgba(255, 255, 255, 0.82);
+  border: 2px solid rgba(45, 106, 79, 0.18);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.13);
+  position: relative;
+  display: block;
+}
+
+.product-image::after {
+  content: "Velura";
+  position: absolute;
+  width: 54px;
+  height: 42px;
+  border-radius: 10px;
+  background: rgba(45, 106, 79, 0.10);
+  color: var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+
+.product-badge {
+  font-size: 0.72rem;
+}
