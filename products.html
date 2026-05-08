@@ -1,0 +1,416 @@
+﻿<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Shfleto koleksionin e plotë të Velura Beauty — kremë fytyre, kujdes trupi, serumet dhe sete premium kozmetike." />
+  <title>Produktet – Velura Beauty</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <nav class="navbar">
+    <div class="navbar-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">&#x1F338;</span> Velura Beauty
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+        <li><a href="about.html" data-i18n="nav.about">About</a></li>
+        <li><a href="products.html" class="active" data-i18n="nav.products">Products</a></li>
+        <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+        <li><a href="products.html" class="nav-cta" data-i18n="nav.shop">Shop Now</a></li>
+      </ul>
+      <button id="langToggle" class="lang-toggle" onclick="toggleLanguage()">English</button>
+      <div class="hamburger" id="hamburger" onclick="toggleNav()">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===================== PAGE HERO ===================== -->
+  <section class="page-hero">
+    <div class="breadcrumb">
+      <a href="index.html" data-i18n="breadcrumb.home">Home</a> <span>›</span> <span data-i18n="prod.hero.bc">Products</span>
+    </div>
+    <h1 data-i18n="prod.hero.title">Koleksioni Yne</h1>
+    <p data-i18n="prod.hero.desc">Me shume se 150 produkte premium kozmetike — nga kremera fytyre deri tek setet e kujdesit te plote.</p>
+  </section>
+
+  <!-- ===================== PRODUCT CATALOGUE ===================== -->
+  <section class="section">
+    <div class="container">
+
+      <!-- Filter Tabs -->
+      <div class="filter-tabs" id="filterTabs">
+        <button class="filter-tab active" data-filter="all" data-i18n="prod.filter.all">Te Gjitha</button>
+        <button class="filter-tab" data-filter="indoor" data-i18n="prod.filter.indoor">Krem Fytyre</button>
+        <button class="filter-tab" data-filter="succulent" data-i18n="prod.filter.succulent">Kujdes Trupi</button>
+        <button class="filter-tab" data-filter="flowering" data-i18n="prod.filter.flowering">Serum &amp; Trajtim</button>
+        <button class="filter-tab" data-filter="accessory" data-i18n="prod.filter.accessory">Set &amp; Pakete</button>
+      </div>
+
+      <!-- Products Grid -->
+      <div class="products-grid" id="productsGrid">
+        <!-- Kremera Fytyre -->
+        <div class="product-card" data-category="indoor">
+          <div class="product-image" style="background: linear-gradient(135deg, #fce4ec, #f8bbd0);">
+            &#x1F9F4;
+            <span class="product-badge new" data-i18n="badge.new">E Re</span>
+          </div>
+          <div class="product-info">
+            <div class="product-category" data-i18n="prod.cat.indoor">Krem Fytyre</div>
+            <h3 data-i18n="prod.p1.name">Krem Hidratues per Fytyre</h3>
+            <p data-i18n="prod.p1.desc">Hidratim i thelle 24 ore me acid hialulonik.</p>
+            <div class="product-footer">
+              <span class="product-price">1,890 LEK</span>
+              <button class="add-to-cart" data-i18n="btn.add_cart">Shto ne Shporte</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="indoor">
+          <div class="product-image" style="background: linear-gradient(135deg, #e8eaf6, #c5cae9);">
+            &#x2728;
+            <span class="product-badge" data-i18n="badge.bestseller">Me e Shitura</span>
+          </div>
+          <div class="product-info">
+            <div class="product-category" data-i18n="prod.cat.indoor">Krem Fytyre</div>
+            <h3 data-i18n="prod.p2.name">Krem Nate Anti-Plakje</h3>
+            <p data-i18n="prod.p2.desc">Rigjenerim i nates me retinol dhe peptide.</p>
+            <div class="product-footer">
+              <span class="product-price">3,490 LEK</span>
+              <button class="add-to-cart" data-i18n="btn.add_cart">Shto ne Shporte</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="indoor">
+          <div class="product-image" style="background: linear-gradient(135deg, #fff9c4, #fff59d);">
+            &#x1F441;
+            <span class="product-badge" data-i18n="badge.popular">E Njohur</span>
+          </div>
+          <div class="product-info">
+            <div class="product-category" data-i18n="prod.cat.indoor">Krem Fytyre</div>
+            <h3 data-i18n="prod.p3.name">Krem per Rreth Sysh</h3>
+            <p data-i18n="prod.p3.desc">Formula e bute per zonen delikate rreth syve.</p>
+            <div class="product-footer">
+              <span class="product-price">2,290 LEK</span>
+              <button class="add-to-cart" data-i18n="btn.add_cart">Shto ne Shporte</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="indoor">
+          <div class="product-image" style="background: linear-gradient(135deg, #fff3e0, #ffcc80);">
+            &#x2600;
+            <span class="product-badge new" data-i18n="badge.new">E Re</span>
+          </div>
+          <div class="product-info">
+            <div class="product-category" data-i18n="prod.cat.indoor">Krem Fytyre</div>
+            <h3 data-i18n="prod.p4.name">Krem Dite SPF 50</h3>
+            <p data-i18n="prod.p4.desc">Mbrojtje nga dielli dhe hidratim ne nje krem.</p>
+            <div class="product-footer">
+              <span class="product-price">2,590 LEK</span>
+              <button class="add-to-cart" data-i18n="btn.add_cart">Shto ne Shporte</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Kujdes Trupi -->
+        <div class="product-card" data-category="succulent">
+          <div class="product-image" style="background: linear-gradient(135deg, #fce4ec, #f48fb1);">
+            &#x1F338;
+            <span class="product-badge" data-i18n="badge.bestseller">Me e Shitura</span>
+          </div>
+          <div class="product-info">
+            <div class="product-category" data-i18n="prod.cat.succulent">Kujdes Trupi</div>
+            <h3 data-i18n="prod.p5.name">Locion Trupi Hidratues</h3>
+            <p data-i18n="prod.p5.desc">Hidratim i gjate me gjalpe shea dhe vaj kokosi.</p>
+            <div class="product-footer">
+              <span class="product-price">1,590 LEK</span>
+              <button class="add-to-cart" data-i18n="btn.add_cart">Shto ne Shporte</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="succulent">
+          <div class="product-image" style="background: linear-gradient(135deg, #e8f5e9, #a5d6a7);">
+            &#x1F4AA;
+            <span class="product-badge" data-i18n="badge.popular">E Njohur</span>
+          </div>
+          <div class="product-info">
+            <div class="product-category" data-i18n="prod.cat.succulent">Kujdes Trupi</div>
+            <h3 data-i18n="prod.p6.name">Krem Trupi Forcues</h3>
+            <p data-i18n="prod.p6.desc">Forcon dhe tonifikon lekuren e trupit.</p>
+            <div class="product-footer">
+              <span class="product-price">2,190 LEK</span>
+              <button class="add-to-cart" data-i18n="btn.add_cart">Shto ne Shporte</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="succulent">
+          <div class="product-image" style="background: linear-gradient(135deg, #fff8e1, #ffecb3);">
+            &#x1F932;
+          </div>
+          <div class="product-info">
+            <div class="product-category" data-i18n="prod.cat.succulent">Kujdes Trupi</div>
+            <h3 data-i18n="prod.p7.name">Krem Duarsh i Bute</h3>
+            <p data-i18n="prod.p7.desc">Ushqen dhe protekton duart nga tharia.</p>
+            <div class="product-footer">
+              <span class="product-price">990 LEK</span>
+              <button class="add-to-cart" data-i18n="btn.add_cart">Shto ne Shporte</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="succulent">
+          <div class="product-image" style="background: linear-gradient(135deg, #fdf3e3, #f5ddb0);">
+            &#x1F36F;
+            <span class="product-badge sale" data-i18n="badge.sale">Oferte</span>
+          </div>
+          <div class="product-info">
+            <div class="product-category" data-i18n="prod.cat.succulent">Kujdes Trupi</div>
+            <h3 data-i18n="prod.p8.name">Krem Trupor me Bajame</h3>
+            <p data-i18n="prod.p8.desc">Teksture kremoze me arome te bute bajameje.</p>
+            <div class="product-footer">
+              <span class="product-price">1,790 LEK</span>
+              <button class="add-to-cart" data-i18n="btn.add_cart">Shto ne Shporte</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Serum and Trajtim -->
+        <div class="product-card" data-category="flowering">
+          <div class="product-image" style="background: linear-gradient(135deg, #fff9c4, #fff176);">
+            &#x2B50;
+            <span class="product-badge" data-i18n="badge.popular">E Njohur</span>
+          </div>
+          <div class="product-info">
+            <div class="product-category" data-i18n="prod.cat.flowering">Serum &amp; Trajtim</div>
+            <h3 data-i18n="prod.p9.name">Serum Vitamina C</h3>
+            <p data-i18n="prod.p9.desc">Ndriconi lekuren dhe barazon tonin.</p>
+            <div class="product-footer">
+              <span class="product-price">3,890 LEK</span>
+              <button class="add-to-cart" data-i18n="btn.add_cart">Shto ne Shporte</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="flowering">
+          <div class="product-image" style="background: linear-gradient(135deg, #e8eaf6, #9fa8da);">
+            &#x1F319;
+            <span class="product-badge new" data-i18n="badge.new">E Re</span>
+          </div>
+          <div class="product-info">
+            <div class="product-category" data-i18n="prod.cat.flowering">Serum &amp; Trajtim</div>
+            <h3 data-i18n="prod.p10.name">Serum Retinol</h3>
+            <p data-i18n="prod.p10.desc">Trajtim intensiv anti-plakje. Retinol 0.5%.</p>
+            <div class="product-footer">
+              <span class="product-price">4,290 LEK</span>
+              <button class="add-to-cart" data-i18n="btn.add_cart">Shto ne Shporte</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="flowering">
+          <div class="product-image" style="background: linear-gradient(135deg, #f3e5f5, #ce93d8);">
+            &#x1F48E;
+          </div>
+          <div class="product-info">
+            <div class="product-category" data-i18n="prod.cat.flowering">Serum &amp; Trajtim</div>
+            <h3 data-i18n="prod.p11.name">Serum Kollagjen &amp; Peptide</h3>
+            <p data-i18n="prod.p11.desc">Forcon lekuren dhe redukton humbjen e elasticitetit.</p>
+            <div class="product-footer">
+              <span class="product-price">3,590 LEK</span>
+              <button class="add-to-cart" data-i18n="btn.add_cart">Shto ne Shporte</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="flowering">
+          <div class="product-image" style="background: linear-gradient(135deg, #fce4ec, #ef9a9a);">
+            &#x1F4AB;
+            <span class="product-badge" data-i18n="badge.popular">E Njohur</span>
+          </div>
+          <div class="product-info">
+            <div class="product-category" data-i18n="prod.cat.flowering">Serum &amp; Trajtim</div>
+            <h3 data-i18n="prod.p12.name">Maska Nate Rigjeneruese</h3>
+            <p data-i18n="prod.p12.desc">Trajtim intensiv gjate gjumit me melatonin.</p>
+            <div class="product-footer">
+              <span class="product-price">2,890 LEK</span>
+              <button class="add-to-cart" data-i18n="btn.add_cart">Shto ne Shporte</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Set and Pakete -->
+        <div class="product-card" data-category="accessory">
+          <div class="product-image" style="background: linear-gradient(135deg, #e3f2fd, #90caf9);">
+            &#x1F9FC;
+            <span class="product-badge" data-i18n="badge.bestseller">Me e Shitura</span>
+          </div>
+          <div class="product-info">
+            <div class="product-category" data-i18n="prod.cat.accessory">Set &amp; Pakete</div>
+            <h3 data-i18n="prod.p13.name">Set Pastrimi i Plote</h3>
+            <p data-i18n="prod.p13.desc">Set tre produktesh: shkume pastrimi, uje mikellar dhe tonik.</p>
+            <div class="product-footer">
+              <span class="product-price">2,490 LEK</span>
+              <button class="add-to-cart" data-i18n="btn.add_cart">Shto ne Shporte</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="accessory">
+          <div class="product-image" style="background: linear-gradient(135deg, #fce4ec, #f48fb1);">
+            &#x1F381;
+            <span class="product-badge new" data-i18n="badge.new">E Re</span>
+          </div>
+          <div class="product-info">
+            <div class="product-category" data-i18n="prod.cat.accessory">Set &amp; Pakete</div>
+            <h3 data-i18n="prod.p14.name">Kit i Plote Kujdesi</h3>
+            <p data-i18n="prod.p14.desc">Gjitheska per rutinen tuaj: krem dite, krem nate, serum dhe locion trupi.</p>
+            <div class="product-footer">
+              <span class="product-price">4,990 LEK</span>
+              <button class="add-to-cart" data-i18n="btn.add_cart">Shto ne Shporte</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="accessory">
+          <div class="product-image" style="background: linear-gradient(135deg, #e0f7fa, #80deea);">
+            &#x1F4A6;
+          </div>
+          <div class="product-info">
+            <div class="product-category" data-i18n="prod.cat.accessory">Set &amp; Pakete</div>
+            <h3 data-i18n="prod.p15.name">Shkume Pastrimi Delikate</h3>
+            <p data-i18n="prod.p15.desc">Pastron me butesi pa thare lekuren. Me aloe vera.</p>
+            <div class="product-footer">
+              <span class="product-price">1,290 LEK</span>
+              <button class="add-to-cart" data-i18n="btn.add_cart">Shto ne Shporte</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="accessory">
+          <div class="product-image" style="background: linear-gradient(135deg, #e3f2fd, #bbdefb);">
+            &#x1F4A7;
+            <span class="product-badge sale" data-i18n="badge.sale">Oferte</span>
+          </div>
+          <div class="product-info">
+            <div class="product-category" data-i18n="prod.cat.accessory">Set &amp; Pakete</div>
+            <h3 data-i18n="prod.p16.name">Toner Hidratues</h3>
+            <p data-i18n="prod.p16.desc">Balancon pH-in e lekures dhe pergatit per produktet e tjera.</p>
+            <div class="product-footer">
+              <span class="product-price">1,690 LEK</span>
+              <button class="add-to-cart" data-i18n="btn.add_cart">Shto ne Shporte</button>
+            </div>
+          </div>
+        </div>
+
+            </div><!-- /products-grid -->
+
+      <!-- Promo Banner -->
+      <div class="promo-banner">
+        <div>
+          <h3 data-i18n="prod.promo.title">🎁 Mostra Falas</h3>
+          <p data-i18n="prod.promo.desc">Shpenzoni mbi 5,000 LEK dhe merrni nje mostre falas — Automatikisht i shtuar ne shporte.</p>
+        </div>
+        <a href="contact.html" class="btn btn-white" data-i18n="prod.promo.btn">Learn More →</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo" style="margin-bottom: 1rem; display: inline-flex;">
+          <span class="logo-icon">&#x1F338;</span> Velura Beauty
+        </a>
+        <p data-i18n="footer.desc">Your trusted online destination for beautiful Krem Fytyre. We help you create a greener, healthier, happier home — behet i thjeshte dhe i kendshem.</p>
+        <div class="social-links">
+          <a href="#" class="social-link" aria-label="Instagram">📷</a>
+          <a href="#" class="social-link" aria-label="Facebook">👍</a>
+          <a href="#" class="social-link" aria-label="Pinterest">📌</a>
+          <a href="#" class="social-link" aria-label="Twitter">🐦</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.shop">Shop</h4>
+        <ul>
+          <li><a href="products.html" data-i18n="footer.all_plants">Te Gjitha Produktet</a></li>
+          <li><a href="products.html" data-i18n="footer.indoor">Kreme Fytyre</a></li>
+          <li><a href="products.html" data-i18n="footer.succulents">Kujdes Trupi</a></li>
+          <li><a href="products.html" data-i18n="footer.flowering">Serumet &amp; Trajtimet</a></li>
+          <li><a href="products.html" data-i18n="footer.accessories">Sete &amp; Paketa</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.company">Company</h4>
+        <ul>
+          <li><a href="about.html" data-i18n="footer.about">About Us</a></li>
+          <li><a href="about.html" data-i18n="footer.team">Our Team</a></li>
+          <li><a href="contact.html" data-i18n="footer.contact">Contact</a></li>
+          <li><a href="#" data-i18n="footer.blog">Blog</a></li>
+          <li><a href="#" data-i18n="footer.careers">Careers</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.help">Help</h4>
+        <ul>
+          <li><a href="#" data-i18n="footer.shipping">Shipping Info</a></li>
+          <li><a href="#" data-i18n="footer.returns">Returns &amp; Refunds</a></li>
+          <li><a href="#" data-i18n="footer.care_guide">Plant Care Guide</a></li>
+          <li><a href="#" data-i18n="footer.faq">FAQ</a></li>
+          <li><a href="contact.html" data-i18n="footer.support">Support</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p data-i18n="footer.copy">© 2026 Velura Beauty. Të gjitha të drejtat e rezervuara.</p>
+      <p data-i18n="footer.legal">Privacy Policy · Terms of Service</p>
+    </div>
+  </footer>
+
+  <script src="lang.js"></script>
+  <script>
+    function toggleNav() {
+      document.getElementById('navLinks').classList.toggle('open');
+    }
+
+    // Category filter
+    const tabs = document.querySelectorAll('.filter-tab');
+    const cards = document.querySelectorAll('#productsGrid .product-card');
+
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        tabs.forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+
+        const filter = tab.dataset.filter;
+        cards.forEach(card => {
+          if (filter === 'all' || card.dataset.category === filter) {
+            card.style.display = 'flex';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+
+    // Add to cart feedback
+    document.querySelectorAll('.add-to-cart').forEach(btn => {
+      btn.addEventListener('click', function () {
+        this.textContent = t('btn.added');
+        this.style.background = '#52b788';
+        setTimeout(() => { this.textContent = t('btn.add_cart'); this.style.background = ''; }, 1500);
+      });
+    });
+  </script>
+
+</body>
+</html>
